@@ -1,0 +1,16 @@
+version: v0.0.1
+location: Local
+debug: true
+redisconf:
+  host: 127.0.0.1
+  port: 6379
+  password: ""
+  default_database: 0
+  max_open_conns: 200
+  conn_idle_timeout: 600
+  connect_timeout: 5
+  read_timeout: 3
+  write_timeout: 3
+server:
+  host: 127.0.0.1
+  port: 8090

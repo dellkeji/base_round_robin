@@ -1,0 +1,24 @@
+# test file
+*.test
+
+# dir for local test
+bin/
+src/
+pkg/
+image/
+so/
+pkg/
+
+# glide
+# this will be discarded
+glide.lock
+
+# vscode dir
+debug
+.vscode
+go.gopath
+
+# release pkg
+round_robin_with_weight
+
+.DS_Store
